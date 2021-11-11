@@ -35,7 +35,7 @@ class Response
         return !empty($this->response_headers[$header_name]);
     }
     
-    public function getHeader($header_name): String
+    public function getHeader($header_name): string
     {   
         if (!$this->hasHeader($header_name);
             return '';
