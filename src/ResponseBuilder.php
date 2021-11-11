@@ -12,7 +12,7 @@ class ResponseBuilder
 
         $normalizedResponse = $this->getNormalizedResponse($body);
 
-        return new Response($normalizedResponse['data'], $normalizedResponse['errors']);
+        return new Response($normalizedResponse['data'], $normalizedResponse['errors'], $httpResponse->getHeaders());
     }
 
     private function getNormalizedResponse(string $body)
