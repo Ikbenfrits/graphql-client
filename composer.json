@@ -1,5 +1,5 @@
 {
-  "name": "softonic/graphql-client",
+  "name": "ikbenfrits/graphql-client",
   "type": "library",
   "description" : "Softonic GraphQL client",
   "keywords": ["softonic", "oauth2", "graphql", "client"],
