@@ -37,7 +37,7 @@ class Response
     
     public function getHeader($header_name): string
     {   
-        if (!$this->hasHeader($header_name);
+        if (!$this->hasHeader($header_name))
             return '';
 
         return $this->response_headers[$header_name][0];
